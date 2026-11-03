@@ -1,6 +1,5 @@
-// BrasTech Code - WhatsApp, cubos 3D e animação ao rolar
-// Coloque aqui o número do WhatsApp com DDI e DDD, sem espaços (ex.: 5581999999999)
-const NUM = "";
+
+const NUM = "81 989137726";
 const wa = (m) => "https://wa.me/" + NUM + "?text=" + encodeURIComponent(m);
 document.querySelectorAll("[data-msg]").forEach((a) => {
   a.href = wa(a.dataset.msg);
