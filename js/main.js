@@ -1,5 +1,5 @@
 
-const NUM = "81989137726";
+const NUM = "81 989137726";
 const wa = (m) => "https://wa.me/" + NUM + "?text=" + encodeURIComponent(m);
 document.querySelectorAll("[data-msg]").forEach((a) => {
   a.href = wa(a.dataset.msg);
