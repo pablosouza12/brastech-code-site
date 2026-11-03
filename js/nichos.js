@@ -1,7 +1,7 @@
 
 const NI = [
   [
-    "Dentista",
+    "clínica odontológica",
     "Paciente pesquisa antes de marcar.",
     ["Especialidades", "Convênios", "Agendamento"],
   ],
